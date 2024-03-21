@@ -1,4 +1,9 @@
-# This repo supplements our survey: Unveiling Musical Emotions: Exploring the Landscape of Music Emotion Recognition
+# <p align=center> This repo supplements our survey: Unveiling Musical Emotions: Exploring the Landscape of Music Emotion Recognition
+
+Authors: [Jaeyong Kang](https://scholar.google.com/citations?user=kEI6KkIAAAAJ&hl=en), [Dorien Herremans](https://scholar.google.com/citations?user=Hp5W5f0AAAAJ&hl=en)
+</p>
+
+
 
 A curated list of Datasets, Models and Papers for Music Emotion Recognition (MER)
 

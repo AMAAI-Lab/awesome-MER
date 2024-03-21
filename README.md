@@ -16,10 +16,10 @@ A curated list of Datasets, Models and Papers for Music Emotion Recognition (MER
 ## Models
 | Paper | Year | Feature Modalities | Approach | Emotion Model | Dataset |
 |-------|------|--------------------|----------|---------------|---------|
-| Recognizing Song Mood and Theme: Clustering-based Ensembles | - | - | Clustering-based Ensembles | - | - |
-| Semi-Supervised Music Emotion Recognition using Noisy Student Training and Harmonic Pitch Class Profiles | - | - | Semi-Supervised, Noisy Student Training, Harmonic Pitch Class Profiles | - | - |
-| Frequency Dependent Convolutions for Music Tagging | - | - | Frequency Dependent Convolutions | - | - |
-| SELAB-HCMUS at MediaEval 2021: Music Theme and Emotion Classification with Co-teaching Training Strategy | - | - | Co-teaching Training Strategy | - | - |
+| Recognizing Song Mood and Theme: Clustering-based Ensembles | 2021 | - | Clustering-based Ensembles | - | Jamendo |
+| Semi-Supervised Music Emotion Recognition using Noisy Student Training and Harmonic Pitch Class Profiles | 2021 | - | Semi-Supervised, Noisy Student Training, Harmonic Pitch Class Profiles | - | Jamendo |
+| Frequency Dependent Convolutions for Music Tagging | 2021 | - | Frequency Dependent Convolutions | - | Jamendo |
+| SELAB-HCMUS at MediaEval 2021: Music Theme and Emotion Classification with Co-teaching Training Strategy | 2021 | - | Co-teaching Training Strategy | - | Jamendo |
 | Music Emotion Recognition using Recurrent Neural Networks and Pretrained Models | 2021 | - | Recurrent Neural Networks, Pretrained Models | - | - |
 | Study on Music Emotion Recognition Based on the Machine Learning Model Clustering Algorithm | 2022 | - | Machine Learning Model Clustering Algorithm | - | - |
 | Tracing Back Music Predictions to Sound Sources and Intuitive Perceptual Qualities | 2021 | - | - | - | - |

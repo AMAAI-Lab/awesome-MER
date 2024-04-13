@@ -53,45 +53,32 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 
 
 ## Models
-| Paper | Year | Feature Modalities | Approach | Emotion Model | Dataset |
-|-------|------|--------------------|----------|---------------|---------|
-| Recognizing Song Mood and Theme: Clustering-based Ensembles | 2021 | audio | Clustering-based Ensembles | 56 classes | Jamendo |
-| Semi-Supervised Music Emotion Recognition using Noisy Student Training and Harmonic Pitch Class Profiles | 2021 | audio | Semi-Supervised, Noisy Student Training, Harmonic Pitch Class Profiles | 56 classes | Jamendo |
-| Frequency Dependent Convolutions for Music Tagging | 2021 | audio | Frequency Dependent Convolutions | 56 classes | Jamendo |
-| SELAB-HCMUS at MediaEval 2021: Music Theme and Emotion Classification with Co-teaching Training Strategy | 2021 | audio | Co-teaching Training Strategy | 56 classes | Jamendo |
-| Music Emotion Recognition using Recurrent Neural Networks and Pretrained Models | 2021 | - | Recurrent Neural Networks, Pretrained Models | - | - |
-| Study on Music Emotion Recognition Based on the Machine Learning Model Clustering Algorithm | 2022 | - | Machine Learning Model Clustering Algorithm | - | - |
-| Tracing Back Music Predictions to Sound Sources and Intuitive Perceptual Qualities | 2021 | - | - | - | - |
-| Music Mood Detection Based On Audio And Lyrics With Deep Neural Net | 2018 | Audio, Lyrics | Deep Neural Net | - | - |
-| Transformer-based approach towards music emotion recognition from lyrics | 2021 | Lyrics | Transformer-based | - | - |
-| Semi-supervised music emotion recognition using noisy student training and harmonic pitch class profiles | 2021 | Harmonic Pitch Class Profiles | Noisy Student Training | - | - |
-| Multi-Modality in Music: Predicting Emotion in Music from High-Level Audio Features and Lyrics | 2023 | Audio, Lyrics | Multi-Modality | - | - |
-| Music Emotion Recognition Based on a Neural Network with an Inception-GRU Residual Structure | 2023 | - | Neural Network with Inception-GRU Residual Structure | - | - |
-| A Novel Multi-Task Learning Method for Symbolic Music Emotion Recognition | 2022 | - | Multi-Task Learning | - | - |
-| Feature Selection Approaches for Optimising Music Emotion Recognition Methods | 2022 | - | Feature Selection | - | - |
-| Modelling Emotion Dynamics in Song Lyrics with State Space Models | 2022 | Lyrics | State Space Models | - | - |
-| Fine-tuned XLMRoBERTa for Music Emotion Recognition in Telugu Songs | 2023 | - | Fine-tuned XLMRoBERTa | - | - |
-| Deep Learning for Music Emotion Recognition: A Survey | 2020 | - | Deep Learning | - | - |
-| Convolutional Neural Networks with Local Attention for Music Emotion Recognition | 2020 | - | Convolutional Neural Networks, Local Attention | - | - |
-| Emotion Recognition from Music and Lyrics: A Deep Learning Approach | 2019 | Audio, Lyrics | Deep Learning | - | - |
-| A Survey on Multimodal Music Emotion Recognition | 2020 | Audio, Lyrics | Multimodal | - | - |
-| Context-Aware Music Emotion Recognition Using Attention Based Neural Networks | 2020 | - | Attention Based Neural Networks | - | - |
-| Personalization of Music Emotion Recognition: A User-Adaptive Deep Learning Approach | 2021 | - | User-Adaptive Deep Learning | - | - |
-| Towards Explainable Music Emotion Recognition: A Case Study with Transformers | 2022 | - | Transformers | - | - |
-| Explainable Music Emotion Recognition with Attention-Based Capsule Networks | 2023 | - | Attention-Based Capsule Networks | - | - |
-| Music Emotion Recognition for More Than Basic Emotions | 2020 | - | - | More Than Basic Emotions | - |
-| Dimensional Music Emotion Recognition with a Multi-Task Learning Approach | 2022 | - | Multi-Task Learning | Dimensional | - |
-| Music Emotion Recognition with Self-Attention Based Capsule Networks | 2022 | - | Self-Attention Based Capsule Networks | - | - |
-| A Generative Adversarial Network Approach for Learning Emotion Representations from Music Audio | 2020 | - | Generative Adversarial Network | - | - |
-| Music Emotion Transfer with Conditional Variational Autoencoders | 2021 | - | Conditional Variational Autoencoders | - | - |
-| Musical Genre Aware Music Emotion Recognition with Attention Mechanism | 2022 | - | Attention Mechanism | - | - |
-| Music Emotion Recognition in Social Media Videos | 2020 | - | - | - | - |
-| Music Emotion Recognition with Graph Convolutional Networks | 2023 | - | Graph Convolutional Networks | - | - |
-| Music Emotion Recognition Using Transformers with Rhythm Attention | 2023 | - | Transformers with Rhythm Attention | - | - |
-| Music Recommendation with Emotion-Aware Generative Adversarial Networks | 2022 | - | Emotion-Aware Generative Adversarial Networks | - | - |
-| Generating Emotional Music with Conditional Variational Autoencoders | 2021 | - | Conditional Variational Autoencoders | - | - |
-| The DEAP Dataset for Recognition of Human Emotions | 2012 | - | - | - | DEAP Dataset |
-| A Dataset for Music Emotion Recognition in the Wild | 2018 | - | - | - | Music Emotion Recognition in the Wild Dataset |
-| Music Emotion Recognition from Lyrics Using Deep Attention Networks | 2020 | Lyrics | Deep Attention Networks | - | - |
-| Music Emotion Recognition with Multimodal Fusion of Lyrics and Spectrograms | 2022 | Audio, Lyrics, Spectrograms | Multimodal Fusion | - | - |
+
+| Ref.                                     | Year | Modalities     | Approach                          | Emotion Model | Dataset                   |
+|------------------------------------------|------|----------------|-----------------------------------|---------------|---------------------------|
+| Music mood detection based on audio and lyrics with deep neural net | 2018 | Audio, Lyrics  | Bimodal CNN-LSTM                 | Russell       | MSD                       |
+| Recognition of emotion in music based on deep convolutional neural network [Check paper for modality] | 2020 | Audio          | CNN, Local Attention             | 4 classes     | Soundtracks, Bi-Modal     |
+| Emotion and theme recognition in music using attention-based methods | 2020 | Audio          | Attention Based Neural Networks  | 56 classes    | Jamendo                   |
+| Regression-based Music Emotion Prediction using Triplet Neural Networks | 2020 | Audio          | Triplet Neural Networks           | Russell       | DEAM                      |
+| Recognizing Song Mood and Theme: Clustering-based Ensembles | 2021 | Audio          | Clustering-based Ensembles        | 56 classes    | Jamendo                   |
+| Semi-supervised music emotion recognition using noisy student training and harmonic pitch class profiles | 2021 | Audio          | Semi-Supervised, Noisy Student Training | 56 classes | Jamendo                   |
+| Frequency Dependent Convolutions for Music Tagging | 2021 | Audio          | Frequency Dependent Convolutions  | 56 classes    | Jamendo                   |
+| SELAB-HCMUS at MediaEval 2021: Music Theme and Emotion Classification with Co-teaching Training Strategy | 2021 | Audio          | Co-teaching Training Strategy    | 56 classes    | Jamendo                   |
+| Music emotion recognition using recurrent neural networks and pretrained models | 2021 | Audio          | LSTM, Pretrained Models          | Russell       | Self-built                |
+| Transformer-based approach towards music emotion recognition from lyrics | 2021 | Lyrics         | Transformers                     | Russell       | MoodyLyrics, MER          |
+| Tracing back music emotion predictions to sound sources and intuitive perceptual qualities | 2021 | Audio          | Source-separation based explainer | Russell    | DEAM, Midlevel, PMEmo    |
+| A generative adversarial network model based on intelligent data analytics for music emotion recognition under IoT | 2021 | Audio          | Generative Adversarial Network   | 2 classes     | Self-built                |
+| Study on music emotion recognition based on the machine learning model clustering algorithm | 2022 | Audio          | Clustering Algorithm             | Russell       | MediaEval emotion in music|
+| A novel multi-task learning method for symbolic music emotion recognition | 2022 | MIDI           | Multi-Task Learning               | 4 classes     | EMOPIA, VGMIDI            |
+| Feature selection approaches for optimising music emotion recognition methods | 2022 | Audio          | Feature Selection                | Russell       | MediaEval DEAM            |
+| Predicting emotion from music videos: exploring the relative contribution of visual and auditory information to affective responses | 2022 | Audio, Video   | LSTM                             | Russell       | Self-built                |
+| MERGE Lyrics: Music Emotion Recognition next Generation--Lyrics Classification with Deep Learning | 2022 | Lyrics         | Deep Learning, BERT              | 4 classes     | MIR Lyrics Emotion        |
+| Multi-Modality in Music: Predicting Emotion in Music from High-Level Audio Features and Lyrics | 2023 | Audio, Lyrics  | Multi-Modality                   | Russell       | DMDD                      |
+| Music emotion recognition based on a neural network with an inception-gru residual structure | 2023 | Audio          | Neural Network with Inception-GRU Residual | 4 classes | Soundtracks              |
+| Modeling emotion dynamics in song lyrics with state space models | 2023 | Lyrics         | State Space Models               | 6 classes     | LyricsEmotions            |
+| Tollywood Emotions: Annotation of Valence-Arousal in Telugu Song Lyrics | 2023 | Lyrics         | Fine-tuned XLMRoBERTa           | Russell       | Self-built                |
+| Multimodal music emotion recognition in Indonesian songs based on CNN-LSTM, XLNet transformers | 2023 | Audio, Lyrics  | CNN-LSTM, XLNet Transformers    | 3 classes     | Self-built                |
+| Modularized composite attention network for continuous music emotion recognition | 2023 | Audio          | Attention Mechanism              | Russell       | DEAM, PMEmo               |
+| Automatic music emotion classification model for movie soundtrack subtitling based on neuroscientific premises | 2023 | Audio          | CNN                             | 4 classes     | Musical Excerpts          |
+| Transformer-based automatic music mood classification using multi-modal framework | 2023 | Audio, Lyrics  | Transformers                     | 4 classes     | MoodyLyrics               |
 

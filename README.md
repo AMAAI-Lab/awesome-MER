@@ -5,13 +5,52 @@ Authors: [Jaeyong Kang](https://scholar.google.com/citations?user=kEI6KkIAAAAJ&h
 
 > **<p align="justify"> Abstract:** *This paper presents a novel perspective on Music Emotion Recognition (MER), focusing on distinct challenges, community engagement, and innovative approaches. Rather than striving for comprehensive coverage within the confines of traditional surveys, we delve into the dynamic landscape of MER, emphasizing collaborative efforts, emerging challenges, and promising avenues for research. Our exploration offers insights into the evolving methodologies and applications within the field, aiming to inspire dialogue and collaboration among researchers and practitioners. By embracing a nuanced perspective and highlighting unique angles, this paper contributes to the ongoing discourse on MER, paving the way for future advancements and collaborative endeavors.* </p>
 
-
-
-A curated list of Datasets, Models and Papers for Music Emotion Recognition (MER)
+A curated list of Datasets and Models for Music Emotion Recognition (MER)
 
 ## Overview
-- [Models](#models)
 - [Datasets](#datasets)
+- [Models](#models)
+
+## Dataset
+
+| Dataset                            | Year | # of instances | Length | Type       | Categorical | Dimensional | Dynamic | Induced  |
+|-----------------------------------|------|----------------|--------|------------|-------------|-------------|---------|----------|
+| MoodsMIREX                        | 2007 | 269            | 30s    | MP3        | 5 labels    | -           | Static  | Perceived|
+| CAL500                            | 2007 | 500            | full   | MP3        | 174 labels  | -           | Static  | Perceived|
+| Yang-Dim                          | 2008 | 195            | 25s    | WAV        | -           | Russell     | Static  | Perceived|
+| MoodSwings                        | 2008 | 240            | 15s    | MP3        | -           | Russell     | Dynamic | Perceived|
+| NTWICM                            | 2010 | 2,648          | full   | MP3        | -           | Russell     | Static  | Perceived|
+| Soundtracks                       | 2011 | 470            | 15s-1m | MP3        | 6 labels    | 3 dimemsions| Static  | Perceived|
+| DEAP                              | 2012 | 120            | 60s    | YouTube id | -           | Russell     | Static  | Induced  |
+| Panda et al.'s dataset            | 2013 | 903            | 30s    | MP3, MIDI  | 21 labels   | -           | Static  | Perceived|
+| Solymani et al.'s dataset         | 2013 | 1000           | 45s    | MP3        | -           | Russell     | Both    | Perceived|
+| Emotify                           | 2016 | 400            | 60s    | MP3        | GEMS        | -           | Static  | Induced  |
+| Moodo                             | 2016 | 200            | 15s    | WAV        | -           | Russell     | Static  | Perceived|
+| CH818                             | 2017 | 818            | 30s    | MP3        | -           | Russell     | Static  | Perceived|
+| 4Q-emotion                        | 2018 | 900            | 30s    | MP3        | Quadrants   | -           | Static  | Perceived|
+| MediaEval DEAM                    | 2018 | 2,058          | 45s    | MP3        | -           | Russell     | Both    | Perceived|
+| PMEmo                             | 2018 | 794            | full   | MP3        | -           | Russell     | Both    | Induced  |
+| RAVDESS                           | 2018 | 1,012          | full   | MP3, MP4   | 5 labels    | -           | Static  | Perceived|
+| DMDD                              | 2018 | 18,644         | full   | Audio, Lyrics | -         | Russell     | Static  | Perceived|
+| MTG-Jamendo                       | 2019 | 18,486         | full   | MP3        | 56 labels  | -           | Static  | Perceived|
+| VGMIDI                            | 2019 | 200            | full   | MIDI       | -           | Russell     | Dynamic | Perceived|
+| Turkish Music Emotion             | 2019 | 400            | 30s    | MP3        | 4 labels    | -           | Static  | Perceived|
+| EMOPIA                            | 2021 | 1,087          | 30s-40s| Audio, MIDI| Quadrants   | -           | Static  | Perceived|
+| MER500                            | 2020 | 494            | 10s    | WAV        | 5 labels    | -           | Static  | Perceived|
+| Music4all                         | 2020 | 109,269        | 30s    | WAV        | -           | 3 dimensions| Static  | Perceived|
+| CCMED-WCMED                       | 2020 | 800            | 8-20s  | WAV        | -           | Russell     | Static  | Perceived|
+| MuSe                              | 2021 | 90,001         | full   | Audio      | -           | Russell (V-A-D) | Static | Perceived|
+| HKU956                            | 2022 | 956            | full   | MP3        | -           | Russell     | Static  | Induced  |
+| MERP                              | 2022 | 54             | full   | WAV        | -           | Russell     | Both    | Perceived|
+| MuVi                              | 2022 | 81             | full   | YouTube id | GEMS        | Russell     | Both    | Perceived|
+| YM2413-MDB                        | 2022 | 699            | full   | WAV, MIDI  | 35 labels   | -           | Static  | Perceived|
+| MusAV                             | 2022 | 2,092          | full   | WAV        | -           | Russell     | Static  | Perceived|
+| EmoMV                             | 2023 | 5,986          | 30s    | WAV        | 6 labels    | -           | Static  | Perceived|
+| Indonesian Song                   | 2023 | 476            | full   | WAV        | 3 labels    | -           | Static  | Perceived|
+| TROMPA-MER                        | 2023 | 1,161          | 30s    | WAV        | 11 labels   | -           | Static  | Perceived|
+| EMMA                              | 2024 | 364            | 30s-60s| WAV        | GEMS        | -           | Static  | Perceived|
+| SiTunes                           | 2024 | 300            | full   | WAV        | -           | Russell     | Static  | Induced  |
+
 
 ## Models
 | Paper | Year | Feature Modalities | Approach | Emotion Model | Dataset |
@@ -55,71 +94,4 @@ A curated list of Datasets, Models and Papers for Music Emotion Recognition (MER
 | A Dataset for Music Emotion Recognition in the Wild | 2018 | - | - | - | Music Emotion Recognition in the Wild Dataset |
 | Music Emotion Recognition from Lyrics Using Deep Attention Networks | 2020 | Lyrics | Deep Attention Networks | - | - |
 | Music Emotion Recognition with Multimodal Fusion of Lyrics and Spectrograms | 2022 | Audio, Lyrics, Spectrograms | Multimodal Fusion | - | - |
-
-
-
-| Dataset                            | Year | # of instances | Length | Type       | Categorical | Dimensional | Dynamic | Induced  |
-|-----------------------------------|------|----------------|--------|------------|-------------|-------------|---------|----------|
-| MoodsMIREX \cite{hu2007exploring} | 2007 | 269            | 30s    | MP3        | 5 labels    | -           | Static  | Perceived|
-| CAL500 \cite{turnbull2007towards}| 2007 | 500            | full   | MP3        | 174 labels  | -           | Static  | Perceived|
-| Yang-Dim \cite{yang2008regression} | 2008 | 195           | 25s    | WAV        | -           | Russell     | Static  | Perceived|
-| MoodSwings \cite{kim2008moodswings} | 2008 | 240         | 15s    | MP3        | -           | Russell     | Dynamic | Perceived|
-| NTWICM \cite{schuller2010determination} | 2010 | 2,648  | full   | MP3        | -           | Russell     | Static  | Perceived|
-| Soundtracks \cite{eerola2011comparison} | 2011 | 470      | 15s-1m | MP3        | 6 labels    | 3 dimemsions| Static  | Perceived|
-| DEAP \cite{koelstra2011deap}     | 2012 | 120            | 60s    | YouTube id | -           | Russell     | Static  | Induced  |
-| Panda et al.'s dataset \cite{panda2013multi} | 2013 | 903  | 30s    | MP3, MIDI  | 21 labels   | -           | Static  | Perceived|
-| Solymani et al.'s dataset \cite{soleymani20131000} | 2013 | 1000 | 45s | MP3        | -           | Russell     | Both    | Perceived|
-| Emotify \cite{zentner2008emotions} | 2016 | 400             | 60s    | MP3        | GEMS        | -           | Static  | Induced  |
-| Moodo \cite{pesek2017moodo}      | 2016 | 200             | 15s    | WAV        | -           | Russell     | Static  | Perceived|
-| CH818 \cite{hu2017mood}          | 2017 | 818             | 30s    | MP3        | -           | Russell     | Static  | Perceived|
-| 4Q-emotion \cite{panda2018musical} | 2018 | 900           | 30s    | MP3        | Quadrants   | -           | Static  | Perceived|
-| MediaEval DEAM \cite{aljanaki2017developing} | 2018 | 2,058 | 45s  | MP3        | -           | Russell     | Both    | Perceived|
-| PMEmo \cite{zhang2018pmemo}      | 2018 | 794             | full   | MP3        | -           | Russell     | Both    | Induced  |
-| RAVDESS \cite{livingstone2018ryerson} | 2018 | 1,012       | full   | MP3, MP4   | 5 labels    | -           | Static  | Perceived|
-| DMDD \cite{delbouys2018music}    | 2018 | 18,644          | full   | Audio, Lyrics | -         | Russell     | Static  | Perceived|
-| MTG-Jamendo \cite{bogdanov2019mtg} | 2019 | 18,486        | full   | MP3        | 56 labels  | -           | Static  | Perceived|
-| VGMIDI \cite{ferreira2021learning} | 2019 | 200           | full   | MIDI       | -           | Russell     | Dynamic | Perceived|
-| Turkish Music Emotion \cite{er2019music} | 2019 | 400       | 30s    | MP3        | 4 labels    | -           | Static  | Perceived|
-| EMOPIA \cite{hung2021emopia}     | 2021 | 1,087          | 30s-40s| Audio, MIDI| Quadrants   | -           | Static  | Perceived|
-| MER500 \cite{velankar2020}       | 2020 | 494             | 10s    | WAV        | 5 labels    | -           | Static  | Perceived|
-| Music4all \cite{santana2020music4all} | 2020 | 109,269   | 30s    | WAV        | -           | 3 dimensions| Static  | Perceived|
-| CCMED-WCMED \cite{fan2020comparative} | 2020 | 800        | 8-20s  | WAV        | -           | Russell     | Static  | Perceived|
-| MuSe \cite{akiki2021muse}        | 2021 | 90,001          | full   | Audio      | -           | Russell (V-A-D) | Static | Perceived|
-| HKU956 \cite{hu2022detecting}    | 2022 | 956             | full   | MP3        | -           | Russell     | Static  | Induced  |
-| MERP \cite{koh2022merp}          | 2022 | 54              | full   | WAV        | -           | Russell     | Both    | Perceived|
-| MuVi \cite{chua2022predicting}   | 2022 | 81              | full   | YouTube id | GEMS        | Russell     | Both    | Perceived|
-| YM2413-MDB \cite{choi2022ym2413} | 2022 | 699             | full   | WAV, MIDI  | 35 labels   | -           | Static  | Perceived|
-| MusAV \cite{bogdanov2022musav}   | 2022 | 2,092           | full   | WAV        | -           | Russell     | Static  | Perceived|
-| EmoMV \cite{thao2023emomv}       | 2023 | 5,986           | 30s    | WAV        | 6 labels    | -           | Static  | Perceived|
-| Indonesian Song \cite{sams2023multimodal} | 2023 | 476      | full   | WAV        | 3 labels    | -           | Static  | Perceived|
-
-
-## Datasets
-| Dataset                    | Year | Content                            | Format | Size   | Type                    | Perceived/Induced       |
-|----------------------------|------|------------------------------------|--------|--------|-------------------------|--------------------------|
-| MoodsMIREX                 | 2007 | 269 excerpts (30s long)           | MP3    | 736MB  | Categorical (5 mood clusters) | Perceived             |
-| CAL500                     | 2007 | 500 full songs                     | MP3    | 366MB  | Categorical (174 labels)      | Perceived             |
-| Yang-Dim                   | 2008 | 195 excerpts (25s long)           | -      | -      | Dimensional                    | Perceived             |
-| MoodSwings                 | 2008 | 240 excerpts (15s long)           | -      | -      | Dimensional (Time-continuous A-V) | Perceived           |
-| NTWICM                     | 2010 | 2648 full songs                   | MP3    | 11.7GB | Discrete Dimensional          | Perceived             |
-| Soundtracks                | 2011 | 360+110 excerpts (15s-1m long)    | MP3    | 216MB  | Categorical and Dimensional    | Perceived             |
-| DEAP                       | 2012 | 120 excerpts (60s long)           | Links  | -      | Dimensional                    | Induced               |
-| AMG1608                    | 2015 | 1608 excerpts (30s long)          | WAV    | 4.3GB  | Discrete Dimensional          | Perceived             |
-| Emotify                    | 2016 | 400 excerpts (60s long)           | MP3    | 363MB  | Categorical (GEMS)            | Induced               |
-| CH818                      | 2017 | 818 excerpts (30s long)           | MP3    | 393MB  | Dimensional                    | Perceived             |
-| 4Q-emotion                 | 2018 | 900 excerpts (30s long)           | MP3    | 291MB  | Categorical (Quadrants)       | Perceived             |
-| DEAM/Mediaeval             | 2018 | 2058 excerpts (45s long)          | MP3    | 1.4GB  | Dimensional (Time-continuous A-V) | Perceived          |
-| PMEmo                      | 2018 | 794 full songs                     | MP3    | 1.3GB  | Dimensional (Time-continuous A-V) | Induced             |
-| Jamendo Moods and Themes   | 2019 | 18486 full songs                   | MP3    | 152GB  | Categorical                    | Perceived             |
-| VGMIDI                     | 2019 | 200 MIDI files                     | MIDI   | 1.37GB | Dimensional                    | Perceived             |
-| CCMED-WCMED                | 2020 | 800 excerpts (8-20s long)         | WAV    | -      | Discrete Dimensional          | Perceived             |
-| Moodo                      | 2016 | 200 tracks (15 seconds)           | WAV    | -      | Discrete Dimensional          | Perceived             |
-| Multi-modal MIREX Emotion  | 2013 | 903 excerpts (30s long)           | MP3/MIDI | 320MB  | Categorical                  | Perceived             |
-| Turkish Music Emotion      | 2019 | 400 excerpts (30s)                | MP3    | 263MB  | Categorical                  | Perceived             |
-| EMOPIA                     | 2021 | 1087 music clips from 387 songs   | MIDI (and audio) | 18.9GB | Categorical (Quadrants)       | Perceived             |
-| MER500                     | 2020 | Songs in 5 emotional categories   | WAV    | 1GB    | Categorical                  | Perceived             |
-| MuSe                       | 2021 | 90408 songs                        | -      | -      | Dimensional                   | Perceived             |
-| HKU956                     | 2022 | 956 songs                          | -      | -      | Dimensional                   | Induced               |
-| MERP                       | 2023 | Personalised                       | WAV    | 2GB    | -                            | Perceived             |
-
 

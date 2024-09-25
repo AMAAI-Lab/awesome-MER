@@ -33,7 +33,7 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 | Malheiro et al.'s dataset           | 2016 | 200            | 30s     | Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
 | CH818                               | 2017 | 818            | 30s     | MP3           | -           | Russell     | Static  | Perceived|
 | 4Q-emotion                          | 2018 | 900            | 30s     | MP3           | Quadrants   | -           | Static  | Perceived|
-| MediaEval DEAM                      | 2018 | 2,058          | 45s     | MP3           | -           | Russell     | Both    | Perceived|
+| DEAM                                | 2018 | 2,058          | 45s     | MP3           | -           | Russell     | Both    | Perceived|
 | PMEmo                               | 2018 | 794            | full    | MP3           | -           | Russell     | Both    | Induced  |
 | RAVDESS                             | 2018 | 1,012          | full    | MP3, MP4      | 5 labels    | -           | Static  | Perceived|
 | DMDD                                | 2018 | 18,644         | full    | Audio, Lyrics | -           | Russell     | Static  | Perceived|
@@ -72,27 +72,27 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 | The multiple voices of musical emotions: source separation for improving music emotion recognition models and their interpretability | 2020 | Audio          | Source separation, CNN                       | Russell       | PMEmo                          |
 | Cochleogram-based approach for detecting perceived emotions in music                   | 2020 | Audio          | Cochleogram, CNN                             | Russell       | Solymani et al.’s dataset       |
 | Recognition of emotion in music based on deep convolutional neural network             | 2020 | Audio          | CNN, Local Attention                         | Quadrants     | Soundtracks, Bi-Modal           |
-| Emotion and theme recognition in music using attention-based methods                   | 2020 | Audio          | Attention Based Neural Networks              | 56 classes    | Jamendo                        |
+| Emotion and theme recognition in music using attention-based methods                   | 2020 | Audio          | Attention Based Neural Networks              | 56 classes    | MTG-Jamendo                        |
 | Regression-based Music Emotion Prediction using Triplet Neural Networks                | 2020 | Audio          | Triplet Neural Networks                      | Russell       | DEAM                           |
 | Research on music emotion classification based on CNN-LSTM network                    | 2021 | Audio          | CNN-LSTM                                     | Russell       | DEAM                           |
 | Music emotion recognition using convolutional long short term memory deep neural networks | 2021 | Audio        | CNN, LSTM+DNN                                | 3 classes     | Self-built                     |
-| Recognizing Song Mood and Theme: Clustering-based Ensembles                            | 2021 | Audio          | Clustering-based Ensembles                   | 56 classes    | Jamendo                        |
-| Semi-supervised music emotion recognition using noisy student training and harmonic pitch class profiles | 2021 | Audio          | Semi-Supervised, Noisy Student Training      | 56 classes    | Jamendo                        |
-| Frequency Dependent Convolutions for Music Tagging                                     | 2021 | Audio          | Frequency Dependent Convolutions             | 56 classes    | Jamendo                        |
-| SELAB-HCMUS at MediaEval 2021: Music Theme and Emotion Classification with Co-teaching Training Strategy | 2021 | Audio        | CNN, Co-teaching Training Strategy           | 56 classes    | Jamendo                        |
+| Recognizing Song Mood and Theme: Clustering-based Ensembles                            | 2021 | Audio          | Clustering-based Ensembles                   | 56 classes    | MTG-Jamendo                        |
+| Semi-supervised music emotion recognition using noisy student training and harmonic pitch class profiles | 2021 | Audio          | Semi-Supervised, Noisy Student Training      | 56 classes    | MTG-Jamendo                        |
+| Frequency Dependent Convolutions for Music Tagging                                     | 2021 | Audio          | Frequency Dependent Convolutions             | 56 classes    | MTG-Jamendo                        |
+| SELAB-HCMUS at MediaEval 2021: Music Theme and Emotion Classification with Co-teaching Training Strategy | 2021 | Audio        | CNN, Co-teaching Training Strategy           | 56 classes    | MTG-Jamendo                        |
 | Music emotion recognition using recurrent neural networks and pretrained models        | 2021 | Audio          | LSTM, Pretrained Models                      | Russell       | Self-built                     |
 | Transformer-based approach towards music emotion recognition from lyrics               | 2021 | Lyrics         | Transformers                                 | Russell       | MoodyLyrics, MER               |
 | Tracing back music emotion predictions to sound sources and intuitive perceptual qualities | 2021 | Audio       | Source-separation based explainer            | Russell       | DEAM, Midlevel, PMEmo           |
 | A generative adversarial network model based on intelligent data analytics for music emotion recognition under IoT | 2021 | Audio | Generative Adversarial Network               | 2 classes     | Self-built                     |
 | Deep learning-based late fusion of multimodal information for emotion classification of music video | 2021 | Audio, Video  | CNN                                          | 6 classes     | Self-built                     |
 | A multi-genre model for music emotion recognition using linear regressors              | 2021 | Audio          | Linear Regressors                            | Russell       | Self-built                     |
-| Study on music emotion recognition based on the machine learning model clustering algorithm | 2022 | Audio        | Clustering, Machine Learning (e.g., SVM)     | Russell       | MediaEval emotion in music      |
+| Study on music emotion recognition based on the machine learning model clustering algorithm | 2022 | Audio        | Clustering, Machine Learning (e.g., SVM)     | Russell       | Solymani et al.'s dataset       |
 | A novel multi-task learning method for symbolic music emotion recognition              | 2022 | MIDI           | Multi-Task Learning                          | Quadrants     | EMOPIA, VGMIDI                 |
-| Feature selection approaches for optimising music emotion recognition methods          | 2022 | Audio          | Feature Selection, SVR, RF                   | Russell       | MediaEval DEAM                 |
+| Feature selection approaches for optimising music emotion recognition methods          | 2022 | Audio          | Feature Selection, SVR, RF                   | Russell       | DEAM                 |
 | Predicting emotion from music videos: exploring the relative contribution of visual and auditory information to affective responses | 2022 | Audio, Video  | LSTM                                          | Russell       | Self-built                     |
 | MERGE Lyrics: Music Emotion Recognition next Generation--Lyrics Classification with Deep Learning | 2022 | Lyrics      | Deep Learning, BERT                          | Quadrants     | MIR Lyrics Emotion             |
 | Music emotion recognition based on segment-level two-stage learning                    | 2022 | Audio          | CNN, LSTM                                    | Russell       | PMEmo                          |
-| Emotional classification of music using neural networks with the MediaEval dataset     | 2022 | Audio          | SVM, Random Forest, MLP                      | Russell       | MediaEval DEAM                 |
+| Emotional classification of music using neural networks with the MediaEval dataset     | 2022 | Audio          | SVM, Random Forest, MLP                      | Russell       | DEAM                 |
 | Multi-Modality in Music: Predicting Emotion in Music from High-Level Audio Features and Lyrics | 2023 | Audio, Lyrics | Multi-Modality                               | Russell       | DMDD                           |
 | Music emotion recognition based on a neural network with an inception-gru residual structure | 2023 | Audio       | Inception-GRU Residual                       | Quadrants     | Soundtracks                    |
 | Modeling emotion dynamics in song lyrics with state space models                       | 2023 | Lyrics         | State Space Models                           | 6 classes     | LyricsEmotions                 |

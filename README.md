@@ -1,4 +1,4 @@
-# <p align=center> This repo supplements our survey: Unveiling Musical Emotions: Exploring the Landscape of Music Emotion Recognition
+# <p align=center> This repo supplements our survey: Are We There Yet? A Brief Survey of Music Emotion Prediction Datasets, Models and Outstanding Challenges
 
 Authors: [Jaeyong Kang](https://scholar.google.com/citations?user=kEI6KkIAAAAJ&hl=en), [Dorien Herremans](https://scholar.google.com/citations?user=Hp5W5f0AAAAJ&hl=en)
 </p>

@@ -21,7 +21,7 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 | Yang-Dim                            | 2008 | 195            | 25s     | WAV           | -           | Russell     | Static  | Perceived|
 | MoodSwings                          | 2008 | 240            | 15s     | MP3           | -           | Russell     | Dynamic | Perceived|
 | NTWICM                              | 2010 | 2,648          | full    | MP3           | -           | Russell     | Static  | Perceived|
-| Eerola et al.'s dataset             | 2011 | 470            | 15s-1m  | MP3           | 6 labels    | 3 dimensions| Static  | Perceived|
+| Soundtrack                          | 2011 | 470            | 15s-1m  | MP3           | 6 labels    | 3 dimensions| Static  | Perceived|
 | MoodSwings Turk                     | 2011 | 240            | 15s     | MP3           | -           | Russell     | Dynamic | Perceived|
 | DEAP                                | 2012 | 120            | 60s     | YouTube id    | -           | Russell     | Static  | Induced  |
 | Panda et al.'s dataset              | 2013 | 903            | 30s     | MP3, MIDI     | 21 labels   | -           | Static  | Perceived|
@@ -71,7 +71,7 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 | Attentive RNNs for Continuous-time Emotion Prediction in Music Clips                   | 2020 | Audio          | Attentive LSTM                               | Russell       | Solymani et al.’s dataset       |
 | The multiple voices of musical emotions: source separation for improving music emotion recognition models and their interpretability | 2020 | Audio          | Source separation, CNN                       | Russell       | PMEmo                          |
 | Cochleogram-based approach for detecting perceived emotions in music                   | 2020 | Audio          | Cochleogram, CNN                             | Russell       | Solymani et al.’s dataset       |
-| Recognition of emotion in music based on deep convolutional neural network             | 2020 | Audio          | CNN, Local Attention                         | Quadrants     | Soundtracks, Bi-Modal           |
+| Recognition of emotion in music based on deep convolutional neural network             | 2020 | Audio          | CNN, Local Attention                         | Quadrants     | Soundtrack, Bi-Modal            |
 | Emotion and theme recognition in music using attention-based methods                   | 2020 | Audio          | Attention Based Neural Networks              | 56 classes    | MTG-Jamendo                        |
 | Regression-based Music Emotion Prediction using Triplet Neural Networks                | 2020 | Audio          | Triplet Neural Networks                      | Russell       | DEAM                           |
 | Research on music emotion classification based on CNN-LSTM network                    | 2021 | Audio          | CNN-LSTM                                     | Russell       | DEAM                           |
@@ -94,7 +94,7 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 | Music emotion recognition based on segment-level two-stage learning                    | 2022 | Audio          | CNN, LSTM                                    | Russell       | PMEmo                          |
 | Emotional classification of music using neural networks with the MediaEval dataset     | 2022 | Audio          | SVM, Random Forest, MLP                      | Russell       | DEAM                 |
 | Multi-Modality in Music: Predicting Emotion in Music from High-Level Audio Features and Lyrics | 2023 | Audio, Lyrics | Multi-Modality                               | Russell       | DMDD                           |
-| Music emotion recognition based on a neural network with an inception-gru residual structure | 2023 | Audio       | Inception-GRU Residual                       | Quadrants     | Soundtracks                    |
+| Music emotion recognition based on a neural network with an inception-gru residual structure | 2023 | Audio       | Inception-GRU Residual                       | Quadrants     | Soundtrack                     |
 | Modeling emotion dynamics in song lyrics with state space models                       | 2023 | Lyrics         | State Space Models                           | 6 classes     | LyricsEmotions                 |
 | Tollywood Emotions: Annotation of Valence-Arousal in Telugu Song Lyrics                | 2023 | Lyrics         | Fine-tuned XLMRoBERTa                        | Russell       | Self-built                     |
 | Multimodal music emotion recognition in Indonesian songs based on CNN-LSTM, XLNet transformers | 2023 | Audio, Lyrics | CNN-LSTM, XLNet Transformers                 | 3 classes     | Self-built                     |
@@ -104,5 +104,5 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 | Music Emotion Prediction Using Recurrent Neural Networks                               | 2024 | Audio          | RNN, BRNN, LSTM                              | Quadrants     | 4Q audio, MTG-Jamendo          |
 | MMD-MII model: a multilayered analysis and multimodal integration interaction approach revolutionizing music emotion classification | 2024 | Audio, Lyrics | VGGish, ALBERT                               | 4 classes     | DEAM, FMA                      |
 | Verse1-Chorus-Verse2 Structure: A Stacked Ensemble Approach for Enhanced Music Emotion Recognition | 2024 | Audio, Lyrics | Stacked Ensemble Models                      | 4 classes     | Self-built                     |
-| A GAI-based multi-scale convolution and attention mechanism model for music emotion recognition and recommendation from physiological data | 2024 | Audio      | Multi-scale Parallel Convolution             | 8 classes     | PMEmo, Soundtracks, RAVDESS    |
+| A GAI-based multi-scale convolution and attention mechanism model for music emotion recognition and recommendation from physiological data | 2024 | Audio      | Multi-scale Parallel Convolution             | 8 classes     | PMEmo, Soundtrack, RAVDESS     |
 | Improved differential evolution algorithm based convolutional neural network for emotional analysis of music data | 2024 | Audio         | CNN with Differential Evolution              | 4 classes     | self-built, DEAM               |

@@ -9,8 +9,8 @@
 A curated list of Datasets and Models for Music Emotion Recognition (MER)
 
 ## Overview
-- [List of music-emotion datasets](##List of music-emotion datasets)
-- [List of music emotion prediction models](##List of music emotion prediction models)
+- [List of music-emotion datasets](#list-of-music-emotion-datasets)
+- [List of music emotion prediction models](#List-of-music-emotion-prediction-models)
 
 ## Citation
 If you find these lists useful, please [cite our orginal paper](https://arxiv.org/abs/2406.08809). 

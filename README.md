@@ -9,8 +9,8 @@
 A curated list of Datasets and Models for Music Emotion Recognition (MER)
 
 ## Overview
-- [Dataset list](#datasets)
-- [Model list](#models)
+- [List of music-emotion datasets](## List of music-emotion datasets)
+- [List of music emotion prediction models](## List of music emotion prediction models)
 
 ## Citation
 If you find these lists useful, please [cite our orginal paper](https://arxiv.org/abs/2406.08809). 
@@ -28,7 +28,7 @@ If you find these lists useful, please [cite our orginal paper](https://arxiv.or
 ## Contribute
 Want to contribute your models or datasets? Simply do a pull request. 
 
-## Dataset
+## List of music-emotion datasets
 
 | Dataset                             | Year | # of instances | Length  | Type          | Categorical | Dimensional | Dynamic | Induced  |
 |-------------------------------------|------|----------------|---------|---------------|-------------|-------------|---------|----------|
@@ -76,7 +76,7 @@ Want to contribute your models or datasets? Simply do a pull request.
 | MERGE                               | 2024 | 3,554          | full    | Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
 
 
-## Models
+## List of music emotion prediction models
 
 | Ref.                                                                                   | Year | Modalities     | Approach                                     | Emotion Model | Dataset                        |
 |----------------------------------------------------------------------------------------|------|----------------|----------------------------------------------|---------------|--------------------------------|

@@ -1,4 +1,6 @@
-# <p align=center> This repo supplements our survey: Are We There Yet? A Brief Survey of Music Emotion Prediction Datasets, Models and Outstanding Challenges
+# <p align=center> List of datasets and models for music emotion prediction
+
+This repo supplements our survey: Are We There Yet? A Brief Survey of Music Emotion Prediction Datasets, Models and Outstanding Challenges
 
 - Paper: [arXiv](https://arxiv.org/abs/2406.08809)
 - Authors: [Jaeyong Kang](https://scholar.google.com/citations?user=kEI6KkIAAAAJ&hl=en), [Dorien Herremans](https://scholar.google.com/citations?user=Hp5W5f0AAAAJ&hl=en)

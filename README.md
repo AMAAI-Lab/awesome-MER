@@ -9,10 +9,11 @@
 A curated list of Datasets and Models for Music Emotion Recognition (MER)
 
 ## Overview
-- [Datasets](#datasets)
-- [Models](#models)
+- [Dataset list](#datasets)
+- [Model list](#models)
 
-## If you find these lists useful, please [cite our orginal paper](https://arxiv.org/abs/2406.08809). 
+## Citation
+If you find these lists useful, please [cite our orginal paper](https://arxiv.org/abs/2406.08809). 
 
 ```
 @conference {2024,

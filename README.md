@@ -12,6 +12,21 @@ A curated list of Datasets and Models for Music Emotion Recognition (MER)
 - [Datasets](#datasets)
 - [Models](#models)
 
+## If you find these lists useful, please [cite our orginal paper](https://arxiv.org/abs/2406.08809). 
+
+```
+@conference {2024,
+	title = {Are we there yet? A brief survey of Music Emotion Prediction Datasets, Models and Outstanding Challenges},
+	booktitle = {arXiv:2406.08809},
+	year = {2024},
+	url = {https://arxiv.org/abs/2406.08809},
+	author = {J. Kang and D. Herremans}
+}
+```
+
+## Contribute
+Want to contribute your models or datasets? Simply do a pull request. 
+
 ## Dataset
 
 | Dataset                             | Year | # of instances | Length  | Type          | Categorical | Dimensional | Dynamic | Induced  |

@@ -153,7 +153,7 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Description and music styles: A multi-modal dataset created from the AllMusic database, comprising 903 Western music excerpts across various genres. Each excerpt is paired with corresponding MIDI files and lyrics, enabling analysis from audio, symbolic, and textual perspectives.
 * Annotation strategy: Emotion labels were derived from listener-assigned emotion tags on AllMusic, mapped to the 5 emotion clusters defined in the MIREX Mood Classification Task.
 * Annotation: Categorical — 21 tags grouped into 5 MIREX-defined emotion clusters.
-* Link: http://mir.dei.uc.pt/resources/MIREX-like_mood.zip
+* Link: [http://mir.dei.uc.pt/resources/MIREX-like_mood.zip](http://mir.dei.uc.pt/resources/MIREX-like_mood.zip)
 
 #### Solymani et al.'s dataset
 * Author: 

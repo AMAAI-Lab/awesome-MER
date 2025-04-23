@@ -205,11 +205,11 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Link: Offline
 
 #### MoodyLyrics
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Çano, E. and Morisio, M.
+* Description and music styles: The dataset consists of 2,595 song lyrics collected from various public sources including Last.fm, Million Song Subset, CAL500, and lyrics.wikia.com. It spans diverse genres such as rock, pop, and blues, and includes songs from different eras, ranging from the 1960s to recent years.
+* Annotation strategy: Lyrics were automatically annotated using a lexicon-based sentiment analysis approach. A combined affective lexicon—derived from ANEW, WordNet, and WordNet-Affect—was used to assign Valence and Arousal scores to lyrics. Songs were then classified into one of four emotion quadrants of Russell’s model based on their aggregate Valence and Arousal scores. No human annotation or listener tagging was used.
+* Annotation: 4 emotion categories (Happy, Angry, Sad, Relaxed) derived from Russell’s two-dimensional model (Valence-Arousal quadrants).
+* Link: http://softeng.polito.it/erion/MoodyLyrics.zip
 
 #### 4Q Emotion Dataset
 * Author: Panda R., Malheiro R., Paiva R. P.

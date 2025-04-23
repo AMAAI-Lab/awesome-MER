@@ -394,21 +394,21 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation: 
 * Link:
 
-### Popular Hooks	
+#### Popular Hooks	
 * Author: 
 * Description and music styles: 
 * Annotation strategy: 
 * Annotation: 
 * Link:
 
-### Affolter and Rohrmeier's dataset	
+#### Affolter and Rohrmeier's dataset	
 * Author: 
 * Description and music styles: 
 * Annotation strategy: 
 * Annotation: 
 * Link:
 
-### XMIDI
+#### XMIDI
 * Author: 
 * Description and music styles: 
 * Annotation strategy: 

@@ -128,18 +128,18 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Link: https://osf.io/p6vkg/
 
 #### MoodSwings Turk
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Speck, J.A., Schmidt, E.M., Morton, B.G. and Kim, Y.E.
+* Description and music styles: The authors used US pop music to collect time-varying perception of emotions.
+* Annotation strategy: Crowdsourced MTurk.
+* Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
+* Link: Offline
 
 #### Last.fm subset of MSD
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Bertin-Mahieux, T., Ellis, D.P.W., Whitman, B., & Lamere, P.
+* Description and music styles: A large-scale dataset derived from user-generated tags and similarity data on Last.fm, linked to the Million Song Dataset. Covers a broad range of Western popular music genres including pop, rock, electronic, and hip-hop.
+* Annotation strategy:  Tags and song similarities were obtained from the Last.fm API. Tags reflect listener-generated annotations, collected via Last.fm’s crowd-based platform. Song similarities were computed by Last.fm based on user listening behavior.
+* Annotation: Categorical, based on listener-provided tags. No predefined emotion taxonomy; tag frequency and co-occurrence patterns can be leveraged for emotion-related studies.
+* Link: http://millionsongdataset.com/lastfm/
 
 #### DEAP
 * Author: Koelstra, S., Muehl, C., Soleymani, M., Lee, J.-S., Yazdani, A., Ebrahimi, T., Pun, T., Nijholt, A., Patras, I.

@@ -113,7 +113,7 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
 * Link: Offline
 
-#### Now That's What I Call Music
+#### Now That's What I Call Music (NTWICM)
 * Author: Schuller, B., Dorfner, J., Gerhard, R.
 * Description and music styles: For building up a ground truth music database the compilation “Now That’s What I Call Music!” (U. K. series, volumes 1–69, double CDs, each) is selected. It represents very well most music styles which are popular today; that ranges from Pop and Rock music over Rap, R&B to electronic dance music as Techno or House.
 * Annotation strategy: 4 raters gave static annotations for complete songs for arousal and valence in a discrete range of [−2,−1, 0, 1, 2]. 
@@ -127,12 +127,47 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation: categorical and dimensional
 * Link: https://osf.io/p6vkg/
 
+#### MoodSwings Turk
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### Last.fm subset of MSD
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
 #### DEAP
 * Author: Koelstra, S., Muehl, C., Soleymani, M., Lee, J.-S., Yazdani, A., Ebrahimi, T., Pun, T., Nijholt, A., Patras, I.
 * Description and music styles: From the 120 original videos from YouTube, 60 were manually selected, while the remaining 60 were selected via Last.FM affective tags. EEG and physiological signals were recorded and each participant also rated the videos as above. For 22 participants frontal face video was also recorded.
 * Annotation strategy: The participants ratings, physiological recordings and face video of an experiment where 32 volunteers (mostly European students) watched a subset of 40 of the above music videos. EEG and physiological signals were recorded and each participant also rated the videos as above. For 22 participants frontal face video was also recorded.
 * Annotation: Dimensional (arousal, valence, and dominance)
 * Link: http://www.eecs.qmul.ac.uk/mmv/datasets/deap/
+
+#### Panda et al.'s dataset
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### Solymani et al.'s dataset
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### CAL500exp
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
 
 #### AMG1608
 * Author: Chen, Y.-A, Yang, Y.-H., Wang, J.-C., Chen, H.-H.
@@ -155,12 +190,26 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation (dimensional): Arousal and valence real values between [-1,1] this was mapped to a color.
 * Link: [http://moodo.musiclab.si](http://moodo.musiclab.si)
 
+#### Malheiro et al.'s dataset
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
 #### CH818
 * Author: Hu, X., Yang, Y.
 * Description and music styles: Chinese Pop songs released in Taiwan, Hong Kong and Mainland China.
 * Annotation strategy: Each clip was annotated by three music experts who were born and raised in Mainland China and thus were with a Chinese cultural background. The annotation was done with an interface consisting of two sliding bars of continuous real values between [-10,10]. 
 * Annotation (dimensional): Arousal and valence real values between [-10,10] for whole excerpt.
 * Link: Offline
+
+#### MoodyLyrics
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
 
 #### 4Q Emotion Dataset
 * Author: Panda R., Malheiro R., Paiva R. P.
@@ -169,7 +218,7 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation (categorical): Q1 (A+V+), Q2 (A+V-), Q3(A-V-), Q4 (A-V+)
 * Link: http://mir.dei.uc.pt/downloads.html 
 
-#### MediaEval Database for Emotional Analysis in Music
+#### MediaEval Database for Emotional Analysis in Music (DEAM)
 * Author: Soleymani, M., Aljanaki, A., Yang, Y.
 * Description and music styles: Royalty-free music from several sources: freemusicarchive.org (FMA), jamendo.com,
 and the medleyDB datase. The excerpts which were annotated are available in the same package song ids between 1 and 2058. The dataset consists of 2014 development set (744 songs), 2014 evaluation set (1000 songs) and 2015 evaluation set (58 songs). Includes rock, pop, soul, blues, electronic, classical, hip-hop, international, experimental, folk, jazz, country and pop genres.
@@ -184,7 +233,21 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation (dimensional): Time-continuous arousal and valence annotation (2 Hz)
 * Link: https://github.com/HuiZhangDB/PMEmo
 
-#### Jamendo Mood and Theme Subset
+#### RAVDESS
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### DMDD
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### Jamendo Mood and Theme Subset (MTG-Jamendo)
 * Author: Bogdanov, D., Porter A., Tovstogan P., & Won M. 
 * Description and music styles: The MTG-Jamendo Dataset is an open dataset for music auto-tagging and a subset of the dataset is used in the Emotion and Theme Recognition in Music Task within MediaEval 2019. The dataset contains 87 genre tags, so there is style diversity. 
 * Annotation strategy: The 56 mood/theme tags were crowdsourced from social media tags on the Jamendo platform. Hence, the annotations can be single- or multi-labeled depending on the excerpt. 
@@ -198,6 +261,34 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation (dimensional): Time-continuous arousal and valence annotation
 * Link: https://github.com/lucasnfe/vgmidi
 
+#### Turkish Music Emotion
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### EMOPIA
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### MER500
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### Music4all
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
 #### CCMED-WCMED
 * Author: Fan, J., Yang, Y.-H., Gong, K, Pasquier, P.
 * Description and music styles: The dataset contains 400 excerpts collected from Western classical music recordings and 400 excerpts collected from Chinese classical music recordings.
@@ -205,12 +296,124 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation (dimensional): Arousal and valence real values between [-1,1] for whole excerpt.
 * Link: https://metacreation.net/ccmed_wcmed_soundscape/
 
-#### Moodo
-* Authors: M Pesek, G Strle, A Kavčič, M Marolt 
-* Description and music styles: The dataset contains 200 excerpts (15 seconds). 20 from electronic acoustic, 20 from ethno, 80 from populair (Jamendo) and 80 from movie (Eerola and Vuoskoski, 2010).  
-* Annotation strategy: 741 participants where presented with 10 music excerpts and instructed to choose a color best associated with the music excerpt;
-* Annotation (dimensional): Arousal and valence real values between [-1,1] this was mapped to a color.
-* Link: [http://moodo.musiclab.si](http://moodo.musiclab.si)
+#### MuSe
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### HKU956
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### MERP
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### MuVi
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### YM2413-MDB	
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link: 
+
+#### MusAV
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### EmoMV
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### Indonesian Song
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### TROMPA-MER
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### Music-Mouv
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### ENSA
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### EMMA
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### SiTunes	
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+#### MERGE	
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+### Popular Hooks	
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+### Affolter and Rohrmeier's dataset	
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
+
+### XMIDI
+* Author: 
+* Description and music styles: 
+* Annotation strategy: 
+* Annotation: 
+* Link:
 
 
 ## List of music emotion prediction models

@@ -78,6 +78,137 @@ Want to contribute your models or datasets? Simply do a pull request.
 | MERGE                               | 2024 | 3,554          | full    | Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
 
 
+### Additional information
+#### Moods MIREX
+* Author: Hu, X., Downie, J.S., Laurier, C., Bay, M., Ehmann, A.F.
+* Description and music styles: Selection of the libraries of Associated Production Music (APM), “the world’s leading production music library… offering every imaginable music genre from beautiful classical music recordings to vintage rock to current indie band sounds".
+* Annotation strategy: The pieces were rated by 3 raters, and only a subset of agreement by 2 out of 3 is extracted. 
+* Annotation (categorical): Cluster 1 (passionate, rousing, confident, boisterous, rowdy), Cluster 2 (rollicking, cheerful, fun, sweet, amiable/good natured), Cluster 3 (literate, poignant, wistful, bittersweet, autumnal, brooding), Cluster 4 (humorous, silly, campy, quirky, whimsical, witty, wry), Cluster 5 (aggressive, fiery, tense/anxious, intense, volatile, visceral)
+* Link: Offline
+
+#### CAL500
+* Author: Turnbull, D., Barrington, L., Torres, D., Lanckriet G. 
+* Description and music styles: Songs were picked from the authors' personal collection of western popular 
+music recorded within the last 50 years.
+* Annotation strategy: The authors paid 66 undergraduate students to annotate the CAL500 corpus with semantic 
+concepts from the vocabulary.  Participants were rewarded $10 for a one hour annotation block spent listening to the music.
+* Annotation (categorical): 18 emotions, found by Skowronek et al. (2006) to be both important and easy to identify, were rated on a scale from one to three (e.g., not happy, neutral, happy).
+* Link: http://calab1.ucsd.edu/~datasets/cal500/
+
+#### Yang-Dim
+* Author: Yang, Y.-H., Lin, Y.-C, Su, Y.-F, Chen, H.-H. 
+* Description and music styles: The dataset contains 195 popular songs from Western, Chinese, and Japanese albums. 
+* Annotation strategy: Subjects (most college students) are asked to listen to a subset of music dataset and to choose two values, each ranges from -1.0 to 1.0 in 11 levels, to indicate their feeling about the AV values of the music sample. The ground truth is set as the mean of the AV values of all subjects tested. On the average, more than ten pairs of AV values are collected from the subjective test for each music sample.
+* Annotation (dimensional): Arousal and valence
+* Link: http://mac.citi.sinica.edu.tw/~yang/MER/taslp08/#Data
+
+#### MoodSwings
+* Author: Kim, Y., Schmidt, E., Emelle, L.
+* Description and music styles: The authors used US pop music to collect time-varying perception of emotions.
+* Annotation strategy: Two players from a game used the mouse to annotate the segment over a continuous AV space.
+* Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
+* Link: Offline
+
+#### Now That's What I Call Music
+* Author: Schuller, B., Dorfner, J., Gerhard, R.
+* Description and music styles: For building up a ground truth music database the compilation “Now That’s What I Call Music!” (U. K. series, volumes 1–69, double CDs, each) is selected. It represents very well most music styles which are popular today; that ranges from Pop and Rock music over Rap, R&B to electronic dance music as Techno or House.
+* Annotation strategy: 4 raters gave static annotations for complete songs for arousal and valence in a discrete range of [−2,−1, 0, 1, 2]. 
+* Annotation (dimensional): Arousal and valence [−2,−1, 0, 1, 2].
+* Link: http://openaudio.eu/NTWICM-Mood-Annotation.arff (annotations) 
+
+#### Soundtracks
+* Author: Eerola, T. & Vuoskoski, J. K.
+* Description and music styles: This dataset we refer to as "Film soundtracks" are designed to overcome at least some of the problems mentioned above since they contain not that well known examples (although some could be identified by film aficionados).
+* Annotation strategy: The selection of the excerpts has been done in terms of dimensional and discrete emotion model and evaluated by a pilot study. The initial ratings were made by 12 expert musicologists for both dimensional and discrete models. These ratings were then re-tested with 116 university students.
+* Annotation: categorical and dimensional
+* Link: https://osf.io/p6vkg/
+
+#### DEAP
+* Author: Koelstra, S., Muehl, C., Soleymani, M., Lee, J.-S., Yazdani, A., Ebrahimi, T., Pun, T., Nijholt, A., Patras, I.
+* Description and music styles: From the 120 original videos from YouTube, 60 were manually selected, while the remaining 60 were selected via Last.FM affective tags. EEG and physiological signals were recorded and each participant also rated the videos as above. For 22 participants frontal face video was also recorded.
+* Annotation strategy: The participants ratings, physiological recordings and face video of an experiment where 32 volunteers (mostly European students) watched a subset of 40 of the above music videos. EEG and physiological signals were recorded and each participant also rated the videos as above. For 22 participants frontal face video was also recorded.
+* Annotation: Dimensional (arousal, valence, and dominance)
+* Link: http://www.eecs.qmul.ac.uk/mmv/datasets/deap/
+
+#### AMG1608
+* Author: Chen, Y.-A, Yang, Y.-H., Wang, J.-C., Chen, H.-H.
+* Description and music styles: The dataset contemporary Western music from AMG, which has 34 distinct mood categories defined by music editors.
+* Annotation strategy: Each subject is asked to annotate 13 songs and the subject can annotate a song by placing the cursor on the panel to indicate the location of the perceived VA value of the song.
+* Annotation (dimensional): Arousal and valence real values between [-1,1] for whole excerpt.
+* Link: https://amg1608.blogspot.com/
+
+#### Emotify
+* Author: Aljanaki, A., Wiering, F., Veltkamp, R.C.
+* Description and music styles: The selected songs include mainly four genres (rock, classical, pop and electronic) music. 
+* Annotation strategy: The annotations were collected using GEMS scale (Geneva Emotional Music Scales). The annotations produced by the game are spread unevenly among the songs, which is caused both by design of the experiment and design of the game. Participants could skip songs and switch between genres, and they were encouraged to do so, because induced emotional response does not automatically occur on every music listening occasion. 
+* Annotation (categorical): Nine categories (amazement, solemnity, tenderness, nostalgia, calmness, power, joyful activation, tension, sadness)
+* Link: http://www2.projects.science.uu.nl/memotion/emotifydata/
+
+#### Moodo
+* Authors: M Pesek, G Strle, A Kavčič, M Marolt 
+* Description and music styles: The dataset contains 200 excerpts (15 seconds). 20 from electronic acoustic, 20 from ethno, 80 from popular (Jamendo) and 80 from movies (Eerola and Vuoskoski, 2010).  
+* Annotation strategy: 741 participants where presented with 10 music excerpts and instructed to choose a color best associated with the music excerpt.
+* Annotation (dimensional): Arousal and valence real values between [-1,1] this was mapped to a color.
+* Link: [http://moodo.musiclab.si](http://moodo.musiclab.si)
+
+#### CH818
+* Author: Hu, X., Yang, Y.
+* Description and music styles: Chinese Pop songs released in Taiwan, Hong Kong and Mainland China.
+* Annotation strategy: Each clip was annotated by three music experts who were born and raised in Mainland China and thus were with a Chinese cultural background. The annotation was done with an interface consisting of two sliding bars of continuous real values between [-10,10]. 
+* Annotation (dimensional): Arousal and valence real values between [-10,10] for whole excerpt.
+* Link: Offline
+
+#### 4Q Emotion Dataset
+* Author: Panda R., Malheiro R., Paiva R. P.
+* Description and music styles: The AllMusic API served as the source of musical information, providing metadata such as artist, title, genre and emotion information, as well as 30-second audio clips for most songs. Mostly popularly consumed music.
+* Annotation strategy: Collected from AllMusic API, emotion tags are selected from the original AllMusic Tags by intersecting them with the Warriner’s list. Finally, a manual blind validation is conducted by subjects.
+* Annotation (categorical): Q1 (A+V+), Q2 (A+V-), Q3(A-V-), Q4 (A-V+)
+* Link: http://mir.dei.uc.pt/downloads.html 
+
+#### MediaEval Database for Emotional Analysis in Music
+* Author: Soleymani, M., Aljanaki, A., Yang, Y.
+* Description and music styles: Royalty-free music from several sources: freemusicarchive.org (FMA), jamendo.com,
+and the medleyDB datase. The excerpts which were annotated are available in the same package song ids between 1 and 2058. The dataset consists of 2014 development set (744 songs), 2014 evaluation set (1000 songs) and 2015 evaluation set (58 songs). Includes rock, pop, soul, blues, electronic, classical, hip-hop, international, experimental, folk, jazz, country and pop genres.
+* Annotation strategy: Crowdsourced MTurk with each excerpt annotated at least by 10 workers. Both arousal and valence were annotated separately. Additional static annotations were collected for the whole 45 second exceprts after dynamic annotations. 
+* Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
+* Link: http://cvml.unige.ch/databases/DEAM/
+
+#### PMEmo
+* Author: Zhang, K., Zhang, H., Li, S., Yang, C., Sun, L.
+* Description and music styles: The authors gathered songs popular all around the world: the Billboard Hot 100, the iTunes Top 100 Songs (USA), and the UK Top 40 Singles Chart. They obtained songs available from these charts from 2016 to 2017.
+* Annotation strategy: Similar to DEAM, the annotation was done with the slider to collect dynamic annotations at a sampling rate of 2 Hz. Additionally, annotators should make a static annotation for the whole music excerpt on nine-point scale after finishing dynamic labelling. A total of 457 subjects (236 females and 221 males) are recruited to participate in this work. The electrodermal activity was sampled continuously at a sampling rate of 50 Hz.
+* Annotation (dimensional): Time-continuous arousal and valence annotation (2 Hz)
+* Link: https://github.com/HuiZhangDB/PMEmo
+
+#### Jamendo Mood and Theme Subset
+* Author: Bogdanov, D., Porter A., Tovstogan P., & Won M. 
+* Description and music styles: The MTG-Jamendo Dataset is an open dataset for music auto-tagging and a subset of the dataset is used in the Emotion and Theme Recognition in Music Task within MediaEval 2019. The dataset contains 87 genre tags, so there is style diversity. 
+* Annotation strategy: The 56 mood/theme tags were crowdsourced from social media tags on the Jamendo platform. Hence, the annotations can be single- or multi-labeled depending on the excerpt. 
+* Annotation (categorical): 56 mood/theme tags
+* Link: https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/
+
+#### VGMIDI
+* Author: Ferreira, L., Whitehead, J.
+* Description and music styles: VGMIDI is a dataset of 200 MIDI labelled piano pieces (video game soundtracks).
+* Annotation strategy: Each piece was annotated by 30 human subjects according to a valence-arousal model of emotion. The authors ask the annotators to write two to three sentences describing the short pieces they listened to.
+* Annotation (dimensional): Time-continuous arousal and valence annotation
+* Link: https://github.com/lucasnfe/vgmidi
+
+#### CCMED-WCMED
+* Author: Fan, J., Yang, Y.-H., Gong, K, Pasquier, P.
+* Description and music styles: The dataset contains 400 excerpts collected from Western classical music recordings and 400 excerpts collected from Chinese classical music recordings.
+* Annotation strategy: Two crowdsourcing experiments were carried out to collect emotional annotations (arousal and valence). The authors used a ranking-based method. Instead of providing absolute ratings, participants do pairwise comparisons by deciding which audio excerpt has higher arousal/valence.
+* Annotation (dimensional): Arousal and valence real values between [-1,1] for whole excerpt.
+* Link: https://metacreation.net/ccmed_wcmed_soundscape/
+
+#### Moodo
+* Authors: M Pesek, G Strle, A Kavčič, M Marolt 
+* Description and music styles: The dataset contains 200 excerpts (15 seconds). 20 from electronic acoustic, 20 from ethno, 80 from populair (Jamendo) and 80 from movie (Eerola and Vuoskoski, 2010).  
+* Annotation strategy: 741 participants where presented with 10 music excerpts and instructed to choose a color best associated with the music excerpt;
+* Annotation (dimensional): Arousal and valence real values between [-1,1] this was mapped to a color.
+* Link: [http://moodo.musiclab.si](http://moodo.musiclab.si)
+
+
 ## List of music emotion prediction models
 
 | Ref.                                                                                   | Year | Modalities     | Approach                                     | Emotion Model | Dataset                        |

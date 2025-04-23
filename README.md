@@ -156,11 +156,11 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Link: [https://mir.dei.uc.pt/resources/MIREX-like_mood.zip](https://mir.dei.uc.pt/resources/MIREX-like_mood.zip)
 
 #### Solymani et al.'s dataset
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Soleymani, M., Caro, M.N., Schmidt, E.M., Sha, C.Y. and Yang, Y.H.
+* Description and music styles: This dataset includes 1,000 songs sourced from the Free Music Archive (FMA), covering a wide range of music styles under Creative Commons licenses. It is designed for music emotion recognition research and includes 45-second audio excerpts uniformly sampled from full tracks.
+* Annotation strategy: Continuous valence and arousal annotations were collected via Amazon Mechanical Turk from at least 10 annotators per song. A two-stage filtering method was used to ensure data quality. Continuous annotations were resampled at 2Hz, and standard deviations were also provided to indicate inter-rater variability. Additionally, static annotations were collected on a 9-point scale.
+* Annotation: Dimensional — arousal and valence (time-continuous and static); annotations follow Russell’s model.
+* Link: https://cvml.unige.ch/databases/emoMusic/
 
 #### CAL500exp
 * Author: 

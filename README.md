@@ -163,11 +163,11 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Link: https://cvml.unige.ch/databases/emoMusic/
 
 #### CAL500exp
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Wang, S.Y., Wang, J.C., Yang, Y.H. and Wang, H.M.
+* Description and music styles: CAL500exp is an enriched, time-fragment-level version of the CAL500 dataset. It consists of 3,223 audio segments (3–16 seconds) derived from Western popular music tracks included in the original CAL500 dataset.
+* Annotation strategy: Eleven musically trained annotators were recruited to label time-varying semantic tags using a purpose-built annotation interface designed to improve label quality and reduce effort.
+* Annotation: Categorical — 67 semantic labels including mood, genre, instrumentation, and other musical descriptors, with time-localized annotation.
+* Link: https://slam.iis.sinica.edu.tw/demo/CAL500exp/
 
 #### AMG1608
 * Author: Chen, Y.-A, Yang, Y.-H., Wang, J.-C., Chen, H.-H.

@@ -41,6 +41,7 @@ Want to contribute your models or datasets? Simply do a pull request.
 | NTWICM                              | 2010 | 2,648          | full    | MP3           | -           | Russell     | Static  | Perceived|
 | Soundtrack                          | 2011 | 470            | 15s-1m  | MP3           | 6 labels    | 3 dimensions| Static  | Perceived|
 | MoodSwings Turk                     | 2011 | 240            | 15s     | MP3           | -           | Russell     | Dynamic | Perceived|
+| Last.fm subset of MSD               | 2011 | 505,216        | full    | Metadata only |listener tags| -           | Static  | Perceived|
 | DEAP                                | 2012 | 120            | 60s     | YouTube id    | -           | Russell     | Static  | Induced  |
 | Panda et al.'s dataset              | 2013 | 903            | 30s     | MP3, MIDI     | 21 labels   | -           | Static  | Perceived|
 | Solymani et al.'s dataset           | 2013 | 1000           | 45s     | MP3           | -           | Russell     | Both    | Perceived|
@@ -50,6 +51,7 @@ Want to contribute your models or datasets? Simply do a pull request.
 | Moodo                               | 2016 | 200            | 15s     | WAV           | -           | Russell     | Static  | Perceived|
 | Malheiro et al.'s dataset           | 2016 | 200            | 30s     | Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
 | CH818                               | 2017 | 818            | 30s     | MP3           | -           | Russell     | Static  | Perceived|
+| MoodyLyrics                         | 2017 | 2,595          | full    | Lyrics        | 4 labels    | -           | Static  | Perceived|
 | 4Q-emotion                          | 2018 | 900            | 30s     | MP3           | Quadrants   | -           | Static  | Perceived|
 | DEAM                                | 2018 | 2,058          | 45s     | MP3           | -           | Russell     | Both    | Perceived|
 | PMEmo                               | 2018 | 794            | full    | MP3           | -           | Russell     | Both    | Induced  |
@@ -76,7 +78,9 @@ Want to contribute your models or datasets? Simply do a pull request.
 | EMMA                                | 2024 | 364            | 30s-60s | WAV           | GEMS        | -           | Static  | Perceived|
 | SiTunes                             | 2024 | 300            | full    | WAV           | -           | Russell     | Static  | Induced  |
 | MERGE                               | 2024 | 3,554          | full    | Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
-
+| Popular Hooks                       | 2024 | 38,694         | hooks   | Video, Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
+| Affolter and Rohrmeier's dataset    | 2024 | 5,892          | full    | Spotify id    | 8 labels    | -           | Static  | Perceived|
+| XMIDI                               | 2025 | 108,023        | full    | MIDI          | 11 labels   | -           | Static  | Perceived|
 
 ### Additional information
 #### Moods MIREX

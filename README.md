@@ -191,11 +191,11 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Link: [http://moodo.musiclab.si](http://moodo.musiclab.si)
 
 #### Malheiro et al.'s dataset
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Malheiro, R., Panda, R., Gomes, P.J. and Paiva, R.P.
+* Description and music styles: The dataset includes 200 Western songs spanning various genres and eras. Each song includes both a 30-second audio clip and its corresponding lyrics, aimed at exploring music emotion recognition from audio, lyrics, and bimodal perspectives.
+* Annotation strategy: 39 annotators independently rated either the audio or lyrics of each song. They identified the predominant emotion and assigned arousal and valence values on a scale from -4 to 4. Songs with high disagreement (standard deviation > 1.2) were excluded to ensure consistency. Final sets include 162 audio clips, 180 lyrics, and a bimodal subset of 133 songs where audio and lyrics agreed on quadrant classification.
+* Annotation: Categorical — mapped to the four quadrants of Russell’s emotion model, derived from averaged valence-arousal ratings.
+* Link: Offline
 
 #### CH818
 * Author: Hu, X., Yang, Y.

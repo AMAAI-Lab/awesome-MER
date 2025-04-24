@@ -262,11 +262,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://github.com/lucasnfe/vgmidi
 
 #### Turkish Music Emotion
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Er, M.B. and Aydilek, I.B.
+* Description and music styles: A collection of 400 audio clips from various genres of Turkish music, both verbal and non-verbal, designed to represent four basic emotions: happy, sad, angry, and relaxed. Each emotion category includes 100 music samples, each 30 seconds long.
+* Annotation strategy: 13 participants were asked to label 30-second clips based on their perceived emotions. For each clip, the label chosen by the majority of participants was used as the ground truth. The annotation process was conducted over three sessions, and only the most frequently labeled pieces were included.
+* Annotation: Categorical — 4 classes: happy, sad, angry, relax.
+* Link: https://www.kaggle.com/datasets/blaler/turkish-music-emotion-dataset
 
 #### EMOPIA
 * Author: 

@@ -234,11 +234,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://github.com/HuiZhangDB/PMEmo
 
 #### RAVDESS
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Livingstone, S.R. and Russo, F.A.
+* Description and music styles: The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) is a multimodal, gender-balanced dataset featuring 24 professional actors. It contains emotional speech and song expressions in a neutral North American accent. Songs and speech clips include calm, happy, sad, angry, fearful (with additional emotions like surprise and disgust in speech only), each recorded at two levels of emotional intensity and in various modalities: audio-only, video-only, and audiovisual.
+* Annotation strategy: Each of the 7,356 recordings was rated 10 times by a diverse pool of 247 untrained participants from North America for emotional validity, intensity, and genuineness. Test-retest reliability was collected from an additional 72 participants.
+* Annotation: 5 to 7 discrete emotion categories depending on modality (e.g., calm, happy, sad, angry, fearful, surprise, disgust).
+* Link: https://zenodo.org/records/1188976
 
 #### DMDD
 * Author: 

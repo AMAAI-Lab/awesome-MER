@@ -276,11 +276,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://annahung31.github.io/EMOPIA/
 
 #### MER500
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Velankar, M.
+* Description and music styles: This dataset comprises short audio clips from Indian Hindi film songs, categorized into five popular emotional categories. It provides culturally specific content valuable for studying emotion recognition in Indian music.
+* Annotation strategy: Songs were manually selected and categorized into emotional classes by the creators, with support from student contributors.
+* Annotation: 5 categorical labels — Romantic, Happy, Sad, Devotional, and Party.
+* Link: https://www.kaggle.com/datasets/makvel/mer500
 
 #### Music4all
 * Author: 

@@ -283,11 +283,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://www.kaggle.com/datasets/makvel/mer500
 
 #### Music4all
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Santana, I.A.P., Pinhelli, F., Donini, J., Catharin, L., Mangolin, R.B., Feltrim, V.D. and Domingues, M.A.
+* Description and music styles: A large-scale music dataset containing 109,269 30-second audio clips covering a wide range of genres, languages, and styles. It includes user metadata, lyrics, genre tags, and Spotify-provided audio features, making it suitable for various MIR tasks.
+* Annotation strategy: Emotion annotations are indirectly derived from Spotify’s valence, energy, and danceability scores—continuous values representing affective characteristics of the music.
+* Annotation: Dimensional (valence, energy, danceability) from Spotify API.
+* Link: https://sites.google.com/view/contact4music4all
 
 #### CCMED-WCMED
 * Author: Fan, J., Yang, Y.-H., Gong, K, Pasquier, P.

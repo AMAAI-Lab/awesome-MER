@@ -241,11 +241,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://zenodo.org/records/1188976
 
 #### DMDD
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Delbouys, R., Hennequin, R., Piccoli, F., Royo-Letelier, J. and Moussallam, M.
+* Description and music styles: The Deezer Mood Detection Dataset (DMDD) includes 18,644 full-length tracks sourced through a mapping between the Million Song Dataset (MSD) and the Deezer catalog. The collection spans a wide range of genres available on commercial streaming platforms. Raw audio and lyrics were retrieved for matched tracks, though lyrics and audio are not temporally aligned.
+* Annotation strategy: Valence and arousal values were automatically estimated by embedding Last.fm mood-related tags using affective norms from the lexicon published by Warriner et al. These embeddings were averaged when multiple tags were associated with a track.
+* Annotation: Dimensional — valence and arousal based on Russell’s model.
+* Link: https://github.com/deezer/deezer_mood_detection_dataset
 
 #### Jamendo Mood and Theme Subset (MTG-Jamendo)
 * Author: Bogdanov, D., Porter A., Tovstogan P., & Won M. 

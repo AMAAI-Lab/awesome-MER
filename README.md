@@ -304,11 +304,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://www.kaggle.com/datasets/cakiki/muse-the-musical-sentiment-dataset
 
 #### HKU956
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Hu, X., Li, F. and Liu, R.
+* Description and music styles: A multimodal dataset designed to analyze music-induced emotions and physiological responses. It includes 956 listening records of 592 unique songs sourced from Jamendo (CC-BY license), accompanied by peripheral physiological signals from 30 participants.
+* Annotation strategy: Participants listened to 10 or more songs in a 40-minute session while their physiological signals (heart rate, skin conductance, BVP, IBI, skin temperature) were recorded. They self-reported their arousal and valence responses on a [-10, 10] scale. Personality traits were also measured using the TIPI scale.
+* Annotation: Dimensional (valence and arousal)
+* Link: https://datahub.hku.hk/ndownloader/files/38149263
 
 #### MERP
 * Author: 

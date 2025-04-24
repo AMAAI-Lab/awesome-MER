@@ -269,11 +269,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://www.kaggle.com/datasets/blaler/turkish-music-emotion-dataset
 
 #### EMOPIA
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Hung, H.T., Ching, J., Doh, S., Kim, N., Nam, J. and Yang, Y.H.
+* Description and music styles: A multi-modal dataset of 1,087 clips from 387 solo piano performances of popular music, including covers of Japanese anime, Korean and Western pop songs, movie soundtracks, and original compositions. Clips are segmented to preserve emotional and musical phrase coherence.
+* Annotation strategy: Emotion labels were assigned by four dedicated annotators using Russell’s Circumplex Model (four-quadrant classification). Annotations were done individually per annotator, with periodic cross-validation sessions to ensure consistency in valence/arousal standards.
+* Annotation: Categorical — 4 quadrants based on Russell’s model: HVHA, HVLA, LVHA, LVLA.
+* Link: https://annahung31.github.io/EMOPIA/
 
 #### MER500
 * Author: 

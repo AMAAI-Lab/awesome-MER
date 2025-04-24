@@ -297,11 +297,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://metacreation.net/ccmed_wcmed_soundscape/
 
 #### MuSe
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Akiki, C. and Burghardt, M.
+* Description and music styles: A large-scale music sentiment dataset containing 90,001 songs from a variety of genres, derived from user-generated tags on Last.fm. It includes metadata such as artist, title, genre, MusicBrainz ID, and Spotify ID, enabling linkage to additional musical attributes.
+* Annotation strategy: Mood-related tags from Last.fm were filtered using WordNet-Affect and mapped to valence, arousal, and dominance scores using the Warriner et al. (2013) lexicon. For each song, V-A-D values were computed as the weighted average of associated mood tags.
+* Annotation: Dimensional (valence, arousal, dominance) based on Russell’s circumplex model extended with a dominance dimension.
+* Link: https://www.kaggle.com/datasets/cakiki/muse-the-musical-sentiment-dataset
 
 #### HKU956
 * Author: 

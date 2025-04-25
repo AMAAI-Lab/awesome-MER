@@ -318,11 +318,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://www.kaggle.com/datasets/kohenyan/music-emotion-recognition-with-profile-information
 
 #### MuVi
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Chua, P., Makris, D., Herremans, D., Roig, G. and Agres, K.
+* Description and music styles: A multimodal dataset of 81 music videos selected from the LAKH MIDI dataset (aligned with the Million Song Dataset), covering a range of musical genres including pop and soundtrack music. Designed to analyze how auditory and visual modalities contribute to perceived emotion.
+* Annotation strategy: 48 participants annotated the videos in one of three modalities (music-only, visual-only, audiovisual) for both dynamic (valence-arousal, 2Hz sampling) and static (overall emotion using GEMS-28 terms) emotion perception. Each clip was rated by 5–9 participants.
+* Annotation: Both dynamic (valence-arousal) and static (GEMS-28 terms); perceived emotion.
+* Link: https://github.com/AMAAI-Lab/MuVi
 
 #### YM2413-MDB	
 * Author: 

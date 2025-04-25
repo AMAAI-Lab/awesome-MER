@@ -325,11 +325,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://github.com/AMAAI-Lab/MuVi
 
 #### YM2413-MDB	
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Choi, E., Chung, Y., Lee, S., Jeon, J., Kwon, T. and Nam, J.
+* Description and music styles: A multi-label emotion dataset featuring 699 audio and MIDI clips of 1980s FM video game music from Sega and MSX PC games, composed using the YM2413 sound chip. The music is characterized by FM synthesis with unique composition patterns such as unison playing and simulated reverb.
+* Annotation strategy: Each song was annotated with 19 emotion tags by two annotators and validated by three additional verifiers to refine label accuracy.
+* Annotation: 19 discrete emotion tags, including cheerful, peaceful, creepy, dreamy, touching, and more.
+* Link: https://jech2.github.io/YM2413-MDB/
 
 #### MusAV
 * Author: 

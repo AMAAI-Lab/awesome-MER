@@ -332,11 +332,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://jech2.github.io/YM2413-MDB/
 
 #### MusAV
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Bogdanov, D., Lizarraga Seijas, X., Alonso-Jiménez, P. and Serra, X.
+* Description and music styles: A public benchmark dataset for music emotion recognition featuring 2,092 audio track previews from Spotify, spanning 1,404 genres. The dataset is designed for evaluating arousal and valence regression models.
+* Annotation strategy: Comparative pairwise annotations were collected from 20 annotators to simplify the annotation process and enhance consistency. Annotations are based on relative judgments of AV between track pairs.
+* Annotation: Dimensional (Russell’s model) – arousal and valence (relative annotations).
+* Link: https://zenodo.org/records/7448344
 
 #### EmoMV
 * Author: 

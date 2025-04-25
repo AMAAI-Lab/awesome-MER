@@ -311,11 +311,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://datahub.hku.hk/ndownloader/files/38149263
 
 #### MERP
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link: 
+* Author: Koh, E.Y., Cheuk, K.W., Heung, K.Y., Agres, K.R. and Herremans, D.
+* Description and music styles: A dataset of 54 full-length Creative Commons music tracks sourced from the Free Music Archive and DEAM, selected to represent diverse emotional content across the valence-arousal space.
+* Annotation strategy: Collected through Amazon Mechanical Turk using a custom 2D graphical interface that recorded mouse positions to annotate valence and arousal dynamically at 10Hz. 452 participants contributed, and user profile information (e.g., musical background, listening preferences) was also collected. Four benchmark tracks from DEAM were used to filter noisy data.
+* Annotation: Dimensional (dynamic valence and arousal, sampled at 10Hz)
+* Link: https://www.kaggle.com/datasets/kohenyan/music-emotion-recognition-with-profile-information
 
 #### MuVi
 * Author: 

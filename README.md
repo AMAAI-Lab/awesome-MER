@@ -346,11 +346,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://zenodo.org/records/7011072
 
 #### Indonesian Song
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Sams, A.S. and Zahra, A.
+* Description and music styles: A multimodal dataset consisting of 476 full-length Indonesian pop songs and their corresponding lyrics, focusing on the classification of emotions into positive, neutral, and negative categories.
+* Annotation strategy: Crowdsourced annotation via Google Forms, where participants labeled each song based on perceived emotions (positive, neutral, negative) for both audio and lyrics.
+* Annotation: Categorical — 3 emotion labels (positive, neutral, negative).
+* Link: Offline
 
 #### TROMPA-MER
 * Author: 

@@ -339,11 +339,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://zenodo.org/records/7448344
 
 #### EmoMV
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Thao, H.T.P., Roig, G. and Herremans, D.
+* Description and music styles: A large-scale collection of 5,986 30-second music video segments from YouTube and existing datasets, designed for affective correspondence learning between music and video modalities. The music spans various moods and includes movie soundtracks and popular genres.
+* Annotation strategy: For EmoMV-A, human annotations were used from the MVED dataset; EmoMV-B and EmoMV-C used emotion predictions from a modified Feature AttendAffectNet model trained on MVED. Each music-video pair is labeled as either matched or mismatched in emotion content between modalities.
+* Annotation: Categorical – 6 emotion labels (exciting, fearful, tense, sad, relaxing, neutral); annotations include matched/mismatched labels and continuous valence/arousal values.
+* Link: https://zenodo.org/records/7011072
 
 #### Indonesian Song
 * Author: 

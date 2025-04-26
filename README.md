@@ -367,11 +367,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://homepages.loria.fr/gbonnin/music-mouv/
 
 #### ENSA
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Ospitia-Medina, Y., Beltrán, J.R. and Baldassarri, S.
+* Description and music styles: A collection of 60 complete original songs by Colombian non-superstar artists, covering various genres with vocal and instrumental diversity, intended for studying music emotion recognition and recommendation while addressing dataset biases.
+* Annotation strategy: Emotional labels provided by the artists themselves using a dimensional (Russell) model; for structured songs, annotations were separately provided for verses, choruses, and entire songs; listener questionnaires and low-level audio features were also collected.
+* Annotation: Dimensional — valence and arousal (Russell model).
+* Link: https://github.com/yesidospitiamedina/ENSA
 
 #### EMMA
 * Author: 

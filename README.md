@@ -360,11 +360,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://github.com/juansgomez87/vis-mtg-mer
 
 #### Music-Mouv
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Doumbia, M., Renard, M., Coudrat, L. and Bonnin, G.
+* Description and music styles: A multimodal dataset of 188 music listening trials focused on house and other music styles, aimed at studying the impact of music-induced emotions on gait initiation, with data combining music metadata, physiological signals (heart rate, EDA, BVP, temperature), and biomechanical foot pressure recordings.
+* Annotation strategy: Participants (35 individuals) provided subjective ratings using Self-Assessment Manikin (SAM) for valence and arousal, GEMS-based emotion labels, liking and familiarity judgments, and additional free-text feedback about emotional perception and walking effects.
+* Annotation: Categorical — emotions based on GEMS categories, valence and arousal scores.
+* Link: https://homepages.loria.fr/gbonnin/music-mouv/
 
 #### ENSA
 * Author: 

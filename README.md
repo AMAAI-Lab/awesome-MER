@@ -353,11 +353,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: Offline
 
 #### TROMPA-MER
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Gómez-Cañón, J.S., Gutiérrez-Páez, N., Porcaro, L., Porter, A., Cano, E., Herrera-Boyer, P., Gkiokas, A., Santos, P., Hernández-Leo, D., Karreman, C. and Gómez, E.
+* Description and music styles: A diverse 30-second music excerpt dataset (1,161 tracks) from the Muziekweb collection, focusing on non-Western and Global South music styles to support cross-cultural Music Emotion Recognition (MER) research.
+* Annotation strategy: Citizen science-based platform where participants provided (1) free-text emotion words in their native language, (2) forced-choice labels from 11 emotion categories (including GEMS and Ekman emotions), (3) valence-arousal quadrant categorization, (4) preference/familiarity ratings, and (5) reasons for emotion perception and induction.
+* Annotation: Categorical — 11 emotion labels plus valence-arousal quadrant information, collected from 181 participants through 4,721 annotations.
+* Link: https://github.com/juansgomez87/vis-mtg-mer
 
 #### Music-Mouv
 * Author: 

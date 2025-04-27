@@ -402,11 +402,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://huggingface.co/datasets/NEXTLab-ZJU/popular-hook
 
 #### Affolter and Rohrmeier's dataset	
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Affolter, J. and Rohrmeier, M.
+* Description and music styles: A dataset of 5,892 Spotify tracks across various genres, built to support Music Emotion Recognition and Auto-Tagging tasks with listener-generated textual data (tags and playlist names) from multiple online sources.
+* Annotation strategy: Automatic semantic matching of user-generated text to Plutchik’s eight primary emotions (joy, fear, anger, sadness, disgust, surprise, anticipation, trust) using NLP techniques (Sentence-BERT and NRC Lexicon) to construct 8-dimensional emotion vectors.
+* Annotation: 8 emotion labels based on Plutchik’s model.
+* Link: https://github.com/joanne-affolter/PlayMood
 
 #### XMIDI
 * Author: 

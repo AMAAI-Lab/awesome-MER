@@ -388,11 +388,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://github.com/JiayuLi-997/SiTunes_dataset/
 
 #### MERGE	
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Louro, P.L., Redinho, H., Santos, R., Malheiro, R., Panda, R. and Paiva, R.P.
+* Description and music styles: A large-scale bimodal (audio and lyrics) dataset for music emotion recognition, covering a wide range of genres collected via AllMusic API and lyrics platforms, mapped into Russell’s four emotion quadrants.
+* Annotation strategy: Semi-automatic mapping of expert emotion tags to Russell’s quadrants using Warriner’s affective word ratings, followed by manual validation by multiple annotators to confirm quadrant assignments and ensure quality.
+* Annotation: Quadrants (Valence-Arousal based).
+* Link: https://zenodo.org/records/13939205
 
 #### Popular Hooks	
 * Author: 

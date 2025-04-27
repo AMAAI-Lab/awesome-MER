@@ -409,11 +409,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://github.com/joanne-affolter/PlayMood
 
 #### XMIDI
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Tian, S., Zhang, C., Yuan, W., Tan, W. and Zhu, W.
+* Description and music styles: XMIDI is the largest symbolic music dataset with 108,023 MIDI files covering a wide range of genres and emotions, averaging 176 seconds per piece, amounting to over 5,278 hours of music. The dataset supports high-quality symbolic music generation and emotion recognition.
+* Annotation strategy: Songs were carefully labeled with 11 distinct emotion categories and genre types by ten professional annotators, involving cross-verification, random quality checks, weekly consistency meetings, and panel discussions for controversial cases.
+* Annotation: 11 emotion labels (exciting, warm, happy, romantic, funny, sad, angry, lazy, quiet, fear, magnificent).
+* Link: https://github.com/xmusic-project/XMIDI_Dataset
 
 
 ## List of music emotion prediction models

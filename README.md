@@ -68,7 +68,7 @@ Want to contribute your models or datasets? Simply do a pull request.
 | HKU956                              | 2022 | 956            | full    | MP3           | -           | Russell     | Static  | Induced  |
 | MERP                                | 2022 | 54             | full    | WAV           | -           | Russell     | Both    | Perceived|
 | MuVi                                | 2022 | 81             | full    | YouTube id    | GEMS        | Russell     | Both    | Perceived|
-| YM2413-MDB                          | 2022 | 699            | full    | WAV, MIDI     | 35 labels   | -           | Static  | Perceived|
+| YM2413-MDB                          | 2022 | 699            | full    | WAV, MIDI     | 19 labels   | -           | Static  | Perceived|
 | MusAV                               | 2022 | 2,092          | full    | WAV           | -           | Russell     | Static  | Perceived|
 | EmoMV                               | 2023 | 5,986          | 30s     | WAV           | 6 labels    | -           | Static  | Perceived|
 | Indonesian Song                     | 2023 | 476            | full    | WAV           | 3 labels    | -           | Static  | Perceived|
@@ -381,11 +381,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://osf.io/7ptmd/
 
 #### SiTunes	
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Grigorev, V., Li, J., Ma, W., He, Z., Zhang, M., Liu, Y., Yan, M. and Zhang, J.
+* Description and music styles: A situational music recommendation dataset containing over 300 popular tracks (from various genres in the Million Song Dataset) with rich physiological, psychological, and environmental information collected through a real-world user study.
+* Annotation strategy: Participants provided emotional feedback using valence-arousal dimensions before and after music listening, along with physiological signals (e.g., heart rate, activity type) and environmental data (e.g., weather, location) across three experimental stages.
+* Annotation: Dimensional — Valence-Arousal ratings.
+* Link: https://github.com/JiayuLi-997/SiTunes_dataset/
 
 #### MERGE	
 * Author: 

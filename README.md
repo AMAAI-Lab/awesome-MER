@@ -75,7 +75,7 @@ Want to contribute your models or datasets? Simply do a pull request.
 | TROMPA-MER                          | 2023 | 1,161          | 30s     | WAV           | 11 labels   | -           | Static  | Perceived|
 | Music-Mouv                          | 2023 | 188            | full    | Spotify id    | GEMS        | -           | Static  | Induced  |
 | ENSA                                | 2023 | 60             | full    | MP3           | -           | Russell     | Dynamic | Perceived|
-| EMMA                                | 2024 | 364            | 30s-60s | WAV           | GEMS        | -           | Static  | Perceived|
+| EMMA                                | 2024 | 364            | 30s-60s | WAV           | GEMS        | -           | Static  | Induced  |
 | SiTunes                             | 2024 | 300            | full    | WAV           | -           | Russell     | Static  | Induced  |
 | MERGE                               | 2024 | 3,554          | full    | Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
 | Popular Hooks                       | 2024 | 38,694         | hooks   | Video, Audio, Lyrics | Quadrants   | -           | Static  | Perceived|
@@ -374,11 +374,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://github.com/yesidospitiamedina/ENSA
 
 #### EMMA
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Strauss, H., Vigl, J., Jacobsen, P.O., Bayer, M., Talamini, F., Vigl, W., Zangerle, E. and Zentner, M.
+* Description and music styles: A curated dataset of 364 music excerpts from classical, pop, and hip-hop genres, designed to study music-evoked emotions with a focus on felt emotion rather than perceived emotion.
+* Annotation strategy: Emotion ratings were collected from over 500 participants using the Geneva Emotion Music Scale (GEMS), with each excerpt rated by an average of ~29 participants to ensure stability and reliability of annotations.
+* Annotation: Categorical — GEMS emotion categories (music-specific emotion scale).
+* Link: https://osf.io/7ptmd/
 
 #### SiTunes	
 * Author: 

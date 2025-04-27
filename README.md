@@ -395,11 +395,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: https://zenodo.org/records/13939205
 
 #### Popular Hooks	
-* Author: 
-* Description and music styles: 
-* Annotation strategy: 
-* Annotation: 
-* Link:
+* Author: Wu, X., Wang, J., Yu, J., Zhang, T. and Zhang, K.
+* Description and music styles: A large-scale multimodal music dataset featuring 38,694 popular musical hooks from various genres, with synchronized MIDI, audio, video, and lyrics, aimed at supporting music understanding and generation tasks.
+* Annotation strategy: Emotion labels were automatically predicted using a pre-trained multimodal music emotion recognition framework (mapped to Russell’s 4 quadrants) and validated through a user study; also includes detailed annotations for tonality, structure, genre, and region.
+* Annotation: Quadrants (Valence-Arousal based).
+* Link: https://huggingface.co/datasets/NEXTLab-ZJU/popular-hook
 
 #### Affolter and Rohrmeier's dataset	
 * Author: 

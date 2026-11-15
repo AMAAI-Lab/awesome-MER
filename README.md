@@ -27,6 +27,10 @@ If you find these lists useful, please [cite our orginal paper](https://arxiv.or
 }
 ```
 
+## Related Live-Music Metadata
+
+- [No Stairs Please](https://nostairsplease.com/) — Structured directory of small live-music stages across all 50 US states, booking contacts, and [MCP endpoint](https://nostairsplease.com/mcp).
+
 ## Contribute
 Want to contribute your models or datasets? Simply do a pull request. 
 
